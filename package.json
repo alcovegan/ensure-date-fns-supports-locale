@@ -1,24 +1,27 @@
 {
-	"name": "ensure-date-fns-support-locale",
-	"version": "1.0.0",
-	"description": "Ensure that date-fns support passed locale",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/alcovegan/ensure-date-fns-support-locale.git"
-	},
-	"keywords": [
-		"date-fns",
-		"locale",
-		"time"
-	],
-	"author": "Alexander Sharabarov <alcovegan@gmail.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/alcovegan/ensure-date-fns-support-locale/issues"
-	},
-	"homepage": "https://github.com/alcovegan/ensure-date-fns-support-locale#readme"
+  "name": "ensure-date-fns-support-locale",
+  "version": "1.0.0",
+  "description": "Ensure that date-fns support passed locale",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alcovegan/ensure-date-fns-support-locale.git"
+  },
+  "keywords": [
+    "date-fns",
+    "locale",
+    "time"
+  ],
+  "author": "Alexander Sharabarov <alcovegan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alcovegan/ensure-date-fns-support-locale/issues"
+  },
+  "homepage": "https://github.com/alcovegan/ensure-date-fns-support-locale#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
 }
